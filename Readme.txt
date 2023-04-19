@@ -1,6 +1,6 @@
 
 
-POST  --------------> localhost:8080/auth/login
+POST  --------------> /auth/login
 {
     "nombreUsuario":"denise",
     "password":"yoprogramo"
@@ -19,7 +19,7 @@ NOK
 
 
 ----------------------------------------------------------------------------------------------------
-POST ----- > localhost:8080/persona/nuevo
+POST ----- > /persona/nuevo
 AUTHORIZATION - TYPE - SELECCIONA BEARER TOKEN
 token
 eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZW5pc2UiLCJpYXQiOjE2ODE4NDMzMTMsImV4cCI6MTY4MTkyOTcxM30.Z7BtrWSNpyAuaS1kE4KC_ZGMjT7IgBM-PzRZhUwWJ2-0z5IrqohjdbfP7LSGnxNrtCmjbOAB46nfbLuB7GX8Yw
